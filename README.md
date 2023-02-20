@@ -27,24 +27,20 @@ If everything OK, it will import cv2 module, otherwise an error message will be 
 
 -
 
-connection:
+Connection:
 
-Python serial port communication:
+1.Python serial port communication:
 
 Please give the COM number corresponding to your Serial port or USB to Serial Converter instead of
 COM24
 
+(https://user-images.githubusercontent.com/68391321/220049017-f361fc64-3c18-47c4-9224-a6f773efb863.png)
+
 -
 
-Hardware:
-
-1.Arduino UNO
-
-2. 5V Relay Module
+2.Hardware:   Arduino UNO, 5V Relay Module
 
 
--  
+Connection of Arduino UNO:
 
-Connection:
-
-
+(https://user-images.githubusercontent.com/68391321/220049636-7e61b09b-d58f-49a9-9394-b2dda482448b.png)
