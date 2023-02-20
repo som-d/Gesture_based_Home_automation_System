@@ -1,46 +1,40 @@
-# Gesture_based_Home_automation_System
+# Gesture-based-home-automation
 
 You can use your Hand gesture to control Home appliances.
 
-Installation procedure:
+## Prerequisits and Installation
 
-1) First install Python 2.7. Leave all settings as default. In that case, Python will be installed in default folder
-C:\Python27\
+* Python 2.7
 
-2) Download PyCharm ide for running python programs. It is not a compulsory step, but it is one of the
-most easy way to work with python. This is because you can download modules directly from
-PyCharm>settings>Project >Project Interpreter>’plus sign’>install required module or package.
+* OpenCV
+```
+pip install opencv-python
+```
+* mediapipe
+```
+pip install mediapipe
+```
+* pyFirmata
+```
+pip install pyFirmata
+```
+## Connection:
 
-2) Now install NumPy module. Again leave everything default. NumPy will find Python directory and will
-be installed to most appropriate folder. Or else you can directly download it inside PyCharm.
+* Python serial port communication:
 
-3) Now double-click OpenCV.exe. It will ask for extraction folder. Give it as just C:\. It will extract all files
-to C:\opencv\ . Wait until everything is extracted.
-
-4) Now copy everything in the folder C:\opencv\build\python\x86\2.7\ ( most probably, there will be only
-one file cv2.pyd ) and paste it in the folder C:\Python27\Lib\site-packages\
-
-5) Now open your "Python IDLE" ( from Start > All Programmes > Python 2.7 > Python IDLE ) and just
-type following : import cv2
-
-If everything OK, it will import cv2 module, otherwise an error message will be shown. 
-
--
-
-Connection:
-
-1.Python serial port communication:
-
-Please give the COM number corresponding to your Serial port or USB to Serial Converter instead of
-COM24
+Please give the COM number corresponding to your Serial port or USB to Serial Converter instead of COM24
 
 (https://user-images.githubusercontent.com/68391321/220049017-f361fc64-3c18-47c4-9224-a6f773efb863.png)
 
--
-
-2.Hardware:   Arduino UNO, 5V Relay Module
 
 
-Connection of Arduino UNO:
-
+## Hardware: Arduino UNO, 5V Relay Module
+* Connection of Arduino UNO:
 (https://user-images.githubusercontent.com/68391321/220049636-7e61b09b-d58f-49a9-9394-b2dda482448b.png)
+
+## Arduino UNO Code:
+* in arduino uno import smarrt firmata code
+
+* Firstly, go to the left side menu select example select firmata select smart firmata
+
+* import to Arduino UNO
